@@ -1,0 +1,16 @@
+https://github.com/ADolgopolov/IntellectUA.git
+
+
+1)
+echo "# IntellectUA" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ADolgopolov/IntellectUA.git
+git push -u origin master
+
+2)
+git remote add origin https://github.com/ADolgopolov/IntellectUA.git
+// origin - це назва за замовчуванням
+git push -u origin master
+// пушнули головну ветку в віддалений репзиторій, -u - команда гіту запамятати orign
